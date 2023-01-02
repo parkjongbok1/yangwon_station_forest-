@@ -397,7 +397,7 @@
 /* location */
 .location{}
 .location .inner{
-  width: 1840px;
+  width: 96.7%;
   height: 580px;
   margin-left: 75px;
   margin-bottom: 200px;
@@ -408,7 +408,7 @@
 }
 .main_lo_slider{
   position: relative;
-  width: 1840px;
+  width: 100%;
   height: 100%;
 }
 .main_lo_slider .location_slider01{
@@ -416,17 +416,18 @@
   height: 100%;
 }
 .main_lo_slider .location_slider01 .item{
-  width: 880px;
+  width: 2.935%;
   height: 100%;
   margin-right: 500px;
 }
 .main_lo_slider .location_slider01 .item img{
-  width: 880px;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .location .title_cont{
-  width: 750px;
+  width: 41%;
   height: 580px;
   background: rgb(255, 255, 255);
   position: absolute;
@@ -438,7 +439,7 @@
   flex-direction: column;
 }
 .location .title{
-  margin-left: 100px;
+  margin-left: 11%;
 }
 .location .title strong{
   display: inline-block;
@@ -476,7 +477,7 @@
 
 .lo_slider_title{
   position: relative;
-  margin-left: 100px;
+  margin-left: 11%;
 }
 .lo_slider_title .desc{
   margin: 85px 0 67px;
@@ -487,7 +488,7 @@
 .progressBarContainer {
   position: relative;
   /* width: 18.23vw; */
-  margin-left: 100px;
+  margin-left: 11%;
 }
 .progressBarContainer div {
   display: block;
