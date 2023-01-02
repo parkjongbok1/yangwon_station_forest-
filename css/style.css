@@ -430,7 +430,7 @@
   height: 580px;
   background: rgb(255, 255, 255);
   position: absolute;
-  left: 50%;
+  right: 11.5%;
   top: 0;
   /* z-index: 10; */
   display: flex;
