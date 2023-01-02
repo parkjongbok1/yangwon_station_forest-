@@ -103,12 +103,12 @@ $(document).ready(function(){
     var time = 1;
     var progressBarIndex = 0;
 
-    locationSlide.slick({
+    $('.location_slider01').slick({
         dots: false,
         infinite: true,
         arrows: true,
-        prevArrow: $('.location_n'), //이전 화살표
-        nextArrow: $('.location_p'), //다음 화살표
+        prevArrow: $('.location_p'), //이전 화살표
+        nextArrow: $('.location_n'), //다음 화살표
         autoplay: true,
         autoplaySpeed: 4800,
         speed: 1300,
@@ -120,7 +120,7 @@ $(document).ready(function(){
         // fade: true,
         cssEase: 'cubic-bezier(0.6, 0.3, 0.5, 1)', //css transition
      });
-     locationSlide02.slick({
+     $('.lo_slider_title').slick({
         dots: false,
         infinite: true,
         arrows: true,
