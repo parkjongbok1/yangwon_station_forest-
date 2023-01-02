@@ -126,6 +126,7 @@ $(document).ready(function(){
         arrows: true,
         prevArrow: $(''), //이전 화살표
         nextArrow: $(''), //다음 화살표
+        swipe: false, //스와이프
         fade: true,
     });
    
