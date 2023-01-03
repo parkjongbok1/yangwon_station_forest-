@@ -15,15 +15,24 @@
 
     position: relative;
     z-index: -10;
+    animation: visual_bg 2s both;
 }
 .sub .sub_top .desc{}
 .sub .sub_top .desc:nth-child(1){
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: -120px;
+
+  animation: load03 1.7s both;
+  animation-delay: 0.3s;
 }
 .sub .sub_top .desc:nth-child(2){
-    text-align: center;
+  text-align: center;
+  margin: 30px -120px 100px 0;
+
+  animation: load02 1.7s both;
+  animation-delay: 0.3s;
 }
 .sub .sub_top .desc h2{
   font-size: 59px;
@@ -54,8 +63,9 @@
     margin: -160px auto 0;
     position: relative;
 
-    background: rgb(255, 255, 255);
-    /* height: 50vh; */
+    background: rgb(255, 255, 255);  
+    animation: load04 1.7s both;
+    animation-delay: 0.3s;
 }
 .sub-menu{
   position: absolute;
