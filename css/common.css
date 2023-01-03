@@ -149,6 +149,9 @@ a{
 .header.active{
   background: rgba(255, 255, 255, 1);
 }
+.header.sub_header.active{
+  background: rgba(0, 0, 0, 0.5);
+}
 .header .logo{
   margin-left: 4.1%;
 }
@@ -180,6 +183,9 @@ nav ul{
   justify-content: center;
   align-items: center;
   font-size: 16px;
+}
+.access-menu.sub_access_menu li.menu_btn a{
+  color: #ffffff;
 }
 .access-menu li.menu_btn .access-submenu{
   position: absolute;
@@ -248,6 +254,12 @@ nav ul{
 .header_cont .menu span:nth-child(4){
   bottom: 0;
   right: 0;
+}
+.header.sub_header .header_cont .menu span{
+  background: white;
+}
+.header.sub_header .header_cont .menu span:nth-child(1){
+  background: #c40b40;
 }
 .header_cont .menu.active span:nth-child(1),
 .header_cont .menu.active span:nth-child(2){

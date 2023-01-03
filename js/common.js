@@ -12,4 +12,12 @@ $(document).ready(function(){
       }
     });
 
+      // sub
+  $(".smenu").click(function(){
+    $(".down-btn").toggleClass("active");
+  });
+  $(".smenu").click(function(){
+    $(".smenu_wrap").toggleClass("active");
+  });
+
 });
